@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/TextCrawler.cs" Line="7" Column="29" />
       <File FileName="Assets/Scripts/PlayerLook.cs" Line="21" Column="25" />
-      <File FileName="Assets/AudioManager.cs" Line="7" Column="5" />
+      <File FileName="Assets/AudioManager.cs" Line="26" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

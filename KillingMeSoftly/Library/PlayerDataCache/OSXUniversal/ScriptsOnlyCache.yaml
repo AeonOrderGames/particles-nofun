@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - PlayerLook
     - PlayerMovement
+    - TextCrawler
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -40,7 +42,6 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.HighDefinition.Editor.dll:
     - UnityEditor.Rendering.HighDefinition.HDProjectSettings
     - UnityEditor.VFX.VFXHDRPSubOutput
-    - UnityEditor.VFX.VFXLitPlanarPrimitiveOutput
     Unity.RenderPipelines.HighDefinition.Runtime.dll:
     - UnityEngine.Rendering.HighDefinition.AmbientOcclusion
     - UnityEngine.Rendering.HighDefinition.Bloom
@@ -57,7 +58,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset
     - UnityEngine.Rendering.HighDefinition.HDRenderPipelineEditorResources
     - UnityEngine.Rendering.HighDefinition.HDShadowSettings
-    - UnityEngine.Rendering.HighDefinition.MotionBlur
     - UnityEngine.Rendering.HighDefinition.RenderPipelineResources
     - UnityEngine.Rendering.HighDefinition.StaticLightingSky
     - UnityEngine.Rendering.HighDefinition.Tonemapping
@@ -66,11 +66,15 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.HighDefinition.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.VisualEffectGraph.Editor.dll:
     - UnityEditor.VFX.Block.AttributeFromCurve
     - UnityEditor.VFX.Block.Drag
-    - UnityEditor.VFX.Block.FlipbookPlay
-    - UnityEditor.VFX.Block.Force
     - UnityEditor.VFX.Block.GPUEventAlways
     - UnityEditor.VFX.Block.GPUEventOnDie
     - UnityEditor.VFX.Block.GPUEventRate
@@ -100,7 +104,6 @@ ScriptsOnlyBuild:
     - UnityEditor.VFX.VFXSlot
     - UnityEditor.VFX.VFXSlotAnimationCurve
     - UnityEditor.VFX.VFXSlotBool
-    - UnityEditor.VFX.VFXSlotColor
     - UnityEditor.VFX.VFXSlotDirection
     - UnityEditor.VFX.VFXSlotFloat
     - UnityEditor.VFX.VFXSlotFloat2
@@ -121,6 +124,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -154,118 +159,144 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 11460}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 11532}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11678}
+      Script: {instanceID: 11680}
     - Class: 114
-      Script: {instanceID: 11714}
+      Script: {instanceID: 11716}
     - Class: 114
-      Script: {instanceID: 11838}
+      Script: {instanceID: 11840}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 12008}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12200}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12262}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12322}
+      Script: {instanceID: 12324}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12740}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12836}
     - Class: 114
-      Script: {instanceID: 13162}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13308}
+      Script: {instanceID: 13094}
     - Class: 114
-      Script: {instanceID: 13400}
+      Script: {instanceID: 13164}
     - Class: 114
-      Script: {instanceID: 13436}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13494}
+      Script: {instanceID: 13402}
     - Class: 114
-      Script: {instanceID: 13562}
+      Script: {instanceID: 13438}
     - Class: 114
-      Script: {instanceID: 13572}
+      Script: {instanceID: 13496}
     - Class: 114
-      Script: {instanceID: 13710}
+      Script: {instanceID: 13564}
     - Class: 114
-      Script: {instanceID: 14074}
+      Script: {instanceID: 13574}
     - Class: 114
-      Script: {instanceID: 14114}
+      Script: {instanceID: 13712}
     - Class: 114
-      Script: {instanceID: 14144}
+      Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 14116}
     - Class: 114
-      Script: {instanceID: 14338}
+      Script: {instanceID: 14146}
     - Class: 114
-      Script: {instanceID: 14546}
+      Script: {instanceID: 14188}
     - Class: 114
-      Script: {instanceID: 14642}
+      Script: {instanceID: 14340}
     - Class: 114
-      Script: {instanceID: 14664}
+      Script: {instanceID: 14548}
     - Class: 114
-      Script: {instanceID: 14840}
+      Script: {instanceID: 14644}
     - Class: 114
-      Script: {instanceID: 14886}
+      Script: {instanceID: 14648}
     - Class: 114
-      Script: {instanceID: 14894}
+      Script: {instanceID: 14666}
     - Class: 114
-      Script: {instanceID: 15308}
+      Script: {instanceID: 14678}
     - Class: 114
-      Script: {instanceID: 15326}
+      Script: {instanceID: 14842}
     - Class: 114
-      Script: {instanceID: 15396}
+      Script: {instanceID: 14888}
     - Class: 114
-      Script: {instanceID: 15726}
+      Script: {instanceID: 14896}
     - Class: 114
-      Script: {instanceID: 15756}
+      Script: {instanceID: 15170}
     - Class: 114
-      Script: {instanceID: 15960}
+      Script: {instanceID: 15310}
     - Class: 114
-      Script: {instanceID: 16028}
+      Script: {instanceID: 15328}
     - Class: 114
-      Script: {instanceID: 16328}
+      Script: {instanceID: 15398}
+    - Class: 114
+      Script: {instanceID: 15728}
+    - Class: 114
+      Script: {instanceID: 15758}
+    - Class: 114
+      Script: {instanceID: 15812}
+    - Class: 114
+      Script: {instanceID: 15962}
+    - Class: 114
+      Script: {instanceID: 16030}
     - Class: 114
       Script: {instanceID: 16330}
     - Class: 114
-      Script: {instanceID: 16336}
+      Script: {instanceID: 16332}
     - Class: 114
-      Script: {instanceID: 16376}
+      Script: {instanceID: 16338}
     - Class: 114
-      Script: {instanceID: 16404}
+      Script: {instanceID: 16372}
     - Class: 114
-      Script: {instanceID: 16408}
+      Script: {instanceID: 16378}
     - Class: 114
-      Script: {instanceID: 16578}
+      Script: {instanceID: 16406}
     - Class: 114
-      Script: {instanceID: 16584}
+      Script: {instanceID: 16410}
+    - Class: 114
+      Script: {instanceID: 16580}
+    - Class: 114
+      Script: {instanceID: 16586}
+    - Class: 114
+      Script: {instanceID: 33136}
+    - Class: 114
+      Script: {instanceID: 56252}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1453,7 +1484,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXUISliderBinder
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextCrawler
+  - hash:
+      serializedVersion: 2
+      Hash: 6abf73a696a0787613a14f23444d25ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   platform: 2
   scenePathNames:
   - Assets/HDRPFurniturePack/TridifyFurnitureDemoScene.unity
-  playerPath: /Users/petra/Desktop/Test1.app
+  playerPath: /Users/petra/Desktop/ParticleFun.app

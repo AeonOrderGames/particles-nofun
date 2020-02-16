@@ -41,7 +41,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.HighDefinition.Editor.dll:
     - UnityEditor.Rendering.HighDefinition.HDProjectSettings
-    - UnityEditor.VFX.VFXHDRPSubOutput
+    - UnityEditor.Rendering.HighDefinition.HDRenderPipelineEditor
     Unity.RenderPipelines.HighDefinition.Runtime.dll:
     - UnityEngine.Rendering.HighDefinition.AmbientOcclusion
     - UnityEngine.Rendering.HighDefinition.Bloom
@@ -73,52 +73,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     Unity.VisualEffectGraph.Editor.dll:
-    - UnityEditor.VFX.Block.AttributeFromCurve
-    - UnityEditor.VFX.Block.Drag
-    - UnityEditor.VFX.Block.GPUEventAlways
-    - UnityEditor.VFX.Block.GPUEventOnDie
-    - UnityEditor.VFX.Block.GPUEventRate
-    - UnityEditor.VFX.Block.Gravity
-    - UnityEditor.VFX.Block.Orient
-    - UnityEditor.VFX.Block.PositionLine
-    - UnityEditor.VFX.Block.SetAttribute
-    - UnityEditor.VFX.Block.VelocityRandomize
-    - UnityEditor.VFX.Operator.Add
-    - UnityEditor.VFX.Operator.Multiply
-    - UnityEditor.VFX.Operator.Noise
-    - UnityEditor.VFX.Operator.Random
-    - UnityEditor.VFX.Operator.Remap
     - UnityEditor.VFX.UI.VFXGraphUndoCursor
-    - UnityEditor.VFX.UI.VFXViewWindow
-    - UnityEditor.VFX.VFXBasicGPUEvent
-    - UnityEditor.VFX.VFXBasicInitialize
-    - UnityEditor.VFX.VFXBasicSpawner
-    - UnityEditor.VFX.VFXBasicUpdate
-    - UnityEditor.VFX.VFXBuiltInParameter
-    - UnityEditor.VFX.VFXDataParticle
-    - UnityEditor.VFX.VFXGraph
-    - UnityEditor.VFX.VFXInlineOperator
-    - UnityEditor.VFX.VFXParameter
-    - UnityEditor.VFX.VFXPlanarPrimitiveOutput
     - UnityEditor.VFX.VFXResources
-    - UnityEditor.VFX.VFXSlot
-    - UnityEditor.VFX.VFXSlotAnimationCurve
-    - UnityEditor.VFX.VFXSlotBool
-    - UnityEditor.VFX.VFXSlotDirection
-    - UnityEditor.VFX.VFXSlotFloat
-    - UnityEditor.VFX.VFXSlotFloat2
-    - UnityEditor.VFX.VFXSlotFloat3
-    - UnityEditor.VFX.VFXSlotGradient
-    - UnityEditor.VFX.VFXSlotInt
-    - UnityEditor.VFX.VFXSlotPosition
-    - UnityEditor.VFX.VFXSlotTexture2D
-    - UnityEditor.VFX.VFXSlotTransform
-    - UnityEditor.VFX.VFXSlotUint
-    - UnityEditor.VFX.VFXSlotVector
-    - UnityEditor.VFX.VFXSpawnerConstantRate
-    - UnityEditor.VFX.VFXSubgraphContext
-    - UnityEditor.VFX.VFXSubgraphOperator
-    - UnityEditor.VFX.VFXUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -178,125 +134,125 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11452}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11462}
+      Script: {instanceID: 11486}
     - Class: 114
-      Script: {instanceID: 11534}
+      Script: {instanceID: 11558}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 11716}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11864}
     - Class: 114
-      Script: {instanceID: 11844}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 11966}
     - Class: 114
-      Script: {instanceID: 12010}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12084}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 12226}
     - Class: 114
-      Script: {instanceID: 12262}
+      Script: {instanceID: 12286}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 12296}
     - Class: 114
-      Script: {instanceID: 12324}
+      Script: {instanceID: 12348}
     - Class: 114
-      Script: {instanceID: 12740}
+      Script: {instanceID: 12764}
     - Class: 114
-      Script: {instanceID: 12836}
+      Script: {instanceID: 12860}
     - Class: 114
-      Script: {instanceID: 13020}
+      Script: {instanceID: 13044}
     - Class: 114
-      Script: {instanceID: 13094}
+      Script: {instanceID: 13118}
     - Class: 114
-      Script: {instanceID: 13164}
+      Script: {instanceID: 13188}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13334}
     - Class: 114
-      Script: {instanceID: 13402}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13438}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 13496}
+      Script: {instanceID: 13520}
     - Class: 114
-      Script: {instanceID: 13564}
+      Script: {instanceID: 13588}
     - Class: 114
-      Script: {instanceID: 13574}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 13712}
+      Script: {instanceID: 13736}
     - Class: 114
-      Script: {instanceID: 14076}
+      Script: {instanceID: 14012}
     - Class: 114
-      Script: {instanceID: 14116}
+      Script: {instanceID: 14102}
     - Class: 114
-      Script: {instanceID: 14146}
+      Script: {instanceID: 14142}
     - Class: 114
-      Script: {instanceID: 14188}
+      Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 14214}
     - Class: 114
-      Script: {instanceID: 14548}
+      Script: {instanceID: 14366}
     - Class: 114
-      Script: {instanceID: 14644}
+      Script: {instanceID: 14574}
     - Class: 114
-      Script: {instanceID: 14648}
+      Script: {instanceID: 14670}
     - Class: 114
-      Script: {instanceID: 14666}
+      Script: {instanceID: 14674}
     - Class: 114
-      Script: {instanceID: 14678}
+      Script: {instanceID: 14692}
     - Class: 114
-      Script: {instanceID: 14842}
+      Script: {instanceID: 14704}
     - Class: 114
-      Script: {instanceID: 14888}
+      Script: {instanceID: 14868}
     - Class: 114
-      Script: {instanceID: 14896}
+      Script: {instanceID: 14914}
     - Class: 114
-      Script: {instanceID: 15170}
+      Script: {instanceID: 14922}
     - Class: 114
-      Script: {instanceID: 15310}
+      Script: {instanceID: 15120}
     - Class: 114
-      Script: {instanceID: 15328}
+      Script: {instanceID: 15198}
     - Class: 114
-      Script: {instanceID: 15398}
+      Script: {instanceID: 15338}
     - Class: 114
-      Script: {instanceID: 15728}
+      Script: {instanceID: 15356}
     - Class: 114
-      Script: {instanceID: 15758}
+      Script: {instanceID: 15426}
     - Class: 114
-      Script: {instanceID: 15812}
+      Script: {instanceID: 15756}
     - Class: 114
-      Script: {instanceID: 15962}
+      Script: {instanceID: 15786}
     - Class: 114
-      Script: {instanceID: 16030}
+      Script: {instanceID: 15840}
     - Class: 114
-      Script: {instanceID: 16330}
+      Script: {instanceID: 15990}
     - Class: 114
-      Script: {instanceID: 16332}
+      Script: {instanceID: 16058}
     - Class: 114
-      Script: {instanceID: 16338}
+      Script: {instanceID: 16358}
     - Class: 114
-      Script: {instanceID: 16372}
+      Script: {instanceID: 16360}
     - Class: 114
-      Script: {instanceID: 16378}
+      Script: {instanceID: 16366}
+    - Class: 114
+      Script: {instanceID: 16400}
     - Class: 114
       Script: {instanceID: 16406}
     - Class: 114
-      Script: {instanceID: 16410}
+      Script: {instanceID: 16434}
     - Class: 114
-      Script: {instanceID: 16580}
+      Script: {instanceID: 16438}
     - Class: 114
-      Script: {instanceID: 16586}
+      Script: {instanceID: 16608}
     - Class: 114
-      Script: {instanceID: 33136}
-    - Class: 114
-      Script: {instanceID: 56252}
+      Script: {instanceID: 16614}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -874,6 +830,12 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextCrawler
+  - hash:
+      serializedVersion: 2
       Hash: 0fe4ec057423fbea60425bc1a639ade6
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
@@ -1112,6 +1074,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: 6abf73a696a0787613a14f23444d25ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
@@ -1484,19 +1452,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXUISliderBinder
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TextCrawler
-  - hash:
-      serializedVersion: 2
-      Hash: 6abf73a696a0787613a14f23444d25ca
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AudioManager
   platform: 2
   scenePathNames:
   - Assets/HDRPFurniturePack/TridifyFurnitureDemoScene.unity
-  playerPath: /Users/petra/Desktop/ParticleFun.app
+  playerPath: /Users/petra/Desktop/ParticleFun2.app
